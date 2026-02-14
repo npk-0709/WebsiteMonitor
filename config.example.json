@@ -1,0 +1,34 @@
+{
+  "telegram": {
+    "bot_token": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz-Example",
+    "chat_id": "123456789"
+  },
+  "monitoring": {
+    "check_interval": 300,
+    "timeout": 30,
+    "retry_count": 3,
+    "retry_delay": 5
+  },
+  "websites": [
+    {
+      "name": "Website Chính",
+      "url": "https://example.com",
+      "enabled": true
+    },
+    {
+      "name": "API Server",
+      "url": "https://api.example.com/health",
+      "enabled": true
+    },
+    {
+      "name": "CDN",
+      "url": "https://cdn.example.com",
+      "enabled": true
+    },
+    {
+      "name": "Blog",
+      "url": "https://blog.example.com",
+      "enabled": false
+    }
+  ]
+}

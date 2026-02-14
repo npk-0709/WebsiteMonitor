@@ -1,0 +1,29 @@
+{
+  "telegram": {
+    "bot_token": "YOUR_BOT_TOKEN_HERE",
+    "chat_id": "YOUR_CHAT_ID_HERE"
+  },
+  "monitoring": {
+    "check_interval": 300,
+    "timeout": 30,
+    "retry_count": 3,
+    "retry_delay": 5
+  },
+  "websites": [
+    {
+      "name": "Website 1",
+      "url": "https://example.com",
+      "enabled": true
+    },
+    {
+      "name": "Website 2", 
+      "url": "https://google.com",
+      "enabled": true
+    },
+    {
+      "name": "Website 3",
+      "url": "https://github.com",
+      "enabled": true
+    }
+  ]
+}
